@@ -1,0 +1,37 @@
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <h1>Nuevo personaje</h1>
+            <hr>
+            <form action="/characters/crear" method="POST">
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="weapon" class="form-label">Arma</label>
+                            <input type="text" class="form-control" id="weapon" name="weapon">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="occupation" class="form-label">Profesión</label>
+                    <input type="text" class="form-control" id="occupation" name="occupation">
+                </div>
+
+                <div class="d-grid mt-5">
+                    <button type="submit" class="btn btn-dark btn-lg">Crear personaje</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</div>
